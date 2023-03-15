@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="AuthScene" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AuthorizationController">
+   <children>
+      <Label layoutX="222.0" layoutY="28.0" text="Authorization">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginField" layoutX="208.0" layoutY="112.0" prefHeight="26.0" prefWidth="180.0" />
+      <PasswordField fx:id="passwordField" layoutX="210.0" layoutY="200.0" prefHeight="26.0" prefWidth="180.0" />
+      <Button layoutX="210.0" layoutY="252.0" mnemonicParsing="false" onAction="#buttonSign" text="Sign">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="283.0" layoutY="77.0" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="269.0" layoutY="161.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="310.0" layoutY="252.0" mnemonicParsing="false" onAction="#buttonReg" text="Registration">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

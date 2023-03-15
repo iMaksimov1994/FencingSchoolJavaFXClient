@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="scene" prefHeight="256.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AddTrainingFormController">
+    <children>
+        <ComboBox fx:id="boxTrainer" layoutX="71.0" layoutY="40.0" onAction="#boxTrainer" prefHeight="26.0" prefWidth="457.0" />
+        <DatePicker fx:id="calendar" layoutX="14.0" layoutY="124.0" onAction="#calendar" promptText="                Enter Date" />
+        <Button layoutX="266.0" layoutY="194.0" mnemonicParsing="false" onAction="#addTraining" text="Add training">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <ComboBox fx:id="selectTime" layoutX="435.0" layoutY="124.0" prefWidth="150.0" />
+      <ComboBox fx:id="boxNumberOfGym" layoutX="240.0" layoutY="124.0" prefWidth="150.0" />
+      <Label layoutX="258.0" layoutY="14.0" text="Select Trainer">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="67.0" layoutY="95.0" text="Select Date">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="280.0" layoutY="95.0" text="Select Gym">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="474.0" layoutY="95.0" text="Select Time">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="249.0" layoutY="159.0" text="Enter number of gym">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="14.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonBack" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

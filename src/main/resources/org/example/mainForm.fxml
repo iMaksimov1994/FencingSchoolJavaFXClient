@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainScene" prefHeight="351.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MainFormController">
+   <children>
+      <ListView fx:id="listApprentice" layoutX="7.0" layoutY="81.0" prefHeight="200.0" prefWidth="512.0" />
+      <ListView fx:id="listTrainer" layoutX="533.0" layoutY="81.0" prefHeight="200.0" prefWidth="439.0" />
+      <Label layoutX="7.0" layoutY="51.0" text="List of Apprentice :">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="533.0" layoutY="51.0" text="List of Trainer: ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="444.0" layoutY="296.0" mnemonicParsing="false" onAction="#AddToSystem" text="Add person to the system">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="893.0" layoutY="36.0" mnemonicParsing="false" onAction="#reauthorization" text="Sign out">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="707.0" layoutY="36.0" mnemonicParsing="false" onAction="#deleteUser" text="Delete User">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

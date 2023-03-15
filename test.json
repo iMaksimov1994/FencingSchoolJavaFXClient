@@ -1,0 +1,42 @@
+[
+  {
+    "dayWeek": "monday",
+    "start": "09:00:00",
+    "end": "11:30:00"
+  },
+  {
+    "dayWeek": "tuesday",
+    "start": "10:00:00",
+    "end": "13:00:00"
+  },
+  {
+    "dayWeek": "wednesday",
+    "start": null,
+    "end": null
+  },
+  {
+    "dayWeek": "wednesday",
+    "start": null,
+    "end": null
+  },
+  {
+    "dayWeek": "thursday",
+    "start": null,
+    "end": null
+  },
+  {
+    "dayWeek": "friday",
+    "start": null,
+    "end": null
+  },
+  {
+    "dayWeek": "saturday",
+    "start": null,
+    "end": null
+  },
+  {
+    "dayWeek": "sunday",
+    "start": null,
+    "end": null
+  }
+]

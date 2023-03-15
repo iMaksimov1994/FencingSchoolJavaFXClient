@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="scene" prefHeight="360.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.UpdateDelTrainerUpdateScheduleController">
+   <children>
+      <TextField fx:id="surname" layoutX="138.0" layoutY="50.0" />
+      <TextField fx:id="name" layoutX="138.0" layoutY="102.0" />
+      <TextField fx:id="patronymic" layoutX="138.0" layoutY="156.0" />
+      <TextField fx:id="experience" layoutX="138.0" layoutY="208.0" />
+      <Button layoutX="158.0" layoutY="250.0" mnemonicParsing="false" onAction="#updateTrainer" text="Update trainer">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="160.0" layoutY="295.0" mnemonicParsing="false" onAction="#deleteTrainer" text="Delete trainer">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TableView fx:id="tableSchedule" layoutX="345.0" layoutY="50.0" prefHeight="238.0" prefWidth="227.0">
+        <columns>
+          <TableColumn fx:id="dayWeek" prefWidth="75.0" text="Day week" />
+          <TableColumn fx:id="startTime" prefWidth="75.0" text="Start time" />
+            <TableColumn fx:id="endTime" prefWidth="75.0" text="End time" />
+        </columns>
+      </TableView>
+      <Button layoutX="345.0" layoutY="297.0" mnemonicParsing="false" onAction="#addSchedule" text="Add schedule">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button layoutX="471.0" layoutY="297.0" mnemonicParsing="false" onAction="#deleteSchedule" text="Delete schedule">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="36.0" layoutY="54.0" text="Surname">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="36.0" layoutY="106.0" text="Name">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="36.0" layoutY="160.0" text="Patronymic">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="37.0" layoutY="212.0" text="Experience">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button layoutX="14.0" layoutY="316.0" mnemonicParsing="false" onAction="#buttonBack" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

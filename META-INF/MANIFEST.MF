@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: org.example.StartApp
+Class-Path: javafx-controls-19.jar jackson-core-2.13.3.jar javafx-graphi
+ cs-19-win.jar javafx-fxml-19-win.jar jackson-databind-2.13.3.jar jackso
+ n-annotations-2.13.3.jar javafx-fxml-19.jar javafx-graphics-19.jar java
+ fx-controls-19-win.jar jfoenix-9.0.10.jar javafx-base-19-win.jar javafx
+ -base-19.jar jackson-datatype-jsr310-2.13.4.jar
+
